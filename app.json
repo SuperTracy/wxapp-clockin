@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/statistics/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/clockin.png",
+        "selectedIconPath": "image/clockin_HL.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/statistics/index",
+        "iconPath": "image/statistics.png",
+        "selectedIconPath": "image/statistics_HL.png",
+        "text": "统计"
+      }
+    ]
+  }
+}
